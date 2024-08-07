@@ -12,7 +12,18 @@ public class Pattern {
                 }
     }
 
+    // Pyramid Pattern Printing
+
+    public static void pyramidPattern(int n){
+        int i , j;
+        for(i = 0;i<=n;i++)
+        { 
+            System.out.println("*");
+        }
+    }
+
     public static void main(String[] args) {
-        patternprint(2);
+        // patternprint(2);
+        pyramidPattern(4);
     }
 }
